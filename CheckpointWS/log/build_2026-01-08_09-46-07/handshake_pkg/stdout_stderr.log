@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/handshake_pkg/handshake_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/handshake_pkg/handshake_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/handshake_pkg/handshake_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/handshake_pkg/handshake_pkg.egg-info/requires.txt
+writing top-level names to ../../build/handshake_pkg/handshake_pkg.egg-info/top_level.txt
+reading manifest file '../../build/handshake_pkg/handshake_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/handshake_pkg/handshake_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/handshake_pkg/handshake_pkg.egg-info to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/install/handshake_pkg/lib/handshake_pkg
+Installing talker script to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/install/handshake_pkg/lib/handshake_pkg
+writing list of installed files to '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/build/handshake_pkg/install.log'

@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000093] (handshake_pkg) JobQueued: {'identifier': 'handshake_pkg', 'dependencies': OrderedDict([('handshake_pkg', '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg')])}
+[0.000113] (handshake_pkg) JobStarted: {'identifier': 'handshake_pkg'}
+[0.097247] (handshake_pkg) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'townperson', 'SSH_AGENT_PID': '5504', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/townperson', 'OLDPWD': '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1555', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'townperson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'townperson', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/townperson/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubunturacing:@/tmp/.ICE-unix/1531,unix/ubunturacing:/tmp/.ICE-unix/1531', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/575a8f47_eaa9_4a40_a9d3_98cdc1d92e93', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.HMUNI3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.134', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXMimGlK/agent.5503', 'ROS_DOMAIN_ID': '26', 'AMENT_PREFIX_PATH': '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONDONTWRITEBYTECODE': '1', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/pytest.xml --junit-prefix=handshake_pkg -o cache_dir=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/.pytest_cache'}, 'shell': False}
+[0.099508] (-) TimerEvent: {}
+[0.199840] (-) TimerEvent: {}
+[0.237851] (handshake_pkg) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.237967] (handshake_pkg) StdoutLine: {'line': b'platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.239318] (handshake_pkg) StdoutLine: {'line': b'cachedir: build/handshake_pkg/.pytest_cache\n'}
+[0.239368] (handshake_pkg) StdoutLine: {'line': b'rootdir: /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg\n'}
+[0.239405] (handshake_pkg) StdoutLine: {'line': b'plugins: launch-testing-1.0.13, ament-lint-0.12.14, ament-xmllint-0.12.14, launch-testing-ros-0.19.13, ament-copyright-0.12.14, ament-pep257-0.12.14, ament-flake8-0.12.14, cov-3.0.0, colcon-core-0.20.1\n'}
+[0.279644] (handshake_pkg) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.279743] (handshake_pkg) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.279832] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.281918] (handshake_pkg) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.300217] (-) TimerEvent: {}
+[0.356232] (handshake_pkg) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.384425] (handshake_pkg) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.384487] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.384527] (handshake_pkg) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.384561] (handshake_pkg) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.384591] (handshake_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.401047] (handshake_pkg) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.401159] (-) TimerEvent: {}
+[0.401209] (handshake_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 1 code style errors / warnings:\x1b[0m\n'}
+[0.401583] (handshake_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./build/handshake_pkg/prefix_override/sitecustomize.py:4:100: E501 line too long (138 > 99 characters)\x1b[0m\n'}
+[0.401623] (handshake_pkg) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.401656] (handshake_pkg) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.401690] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.401722] (handshake_pkg) StdoutLine: {'line': b'./build/handshake_pkg/prefix_override/sitecustomize.py:4:100: E501 line too long (138 > 99 characters)\n'}
+[0.401752] (handshake_pkg) StdoutLine: {'line': b"    sys.prefix = sys.exec_prefix = '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg'\n"}
+[0.401786] (handshake_pkg) StdoutLine: {'line': b'                                                                                                   ^\n'}
+[0.401816] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.401845] (handshake_pkg) StdoutLine: {'line': b'1     E501 line too long (138 > 99 characters)\n'}
+[0.401877] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.401906] (handshake_pkg) StdoutLine: {'line': b'16 files checked\n'}
+[0.401936] (handshake_pkg) StdoutLine: {'line': b'1 errors\n'}
+[0.401966] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.401996] (handshake_pkg) StdoutLine: {'line': b"'E'-type errors: 1\n"}
+[0.402025] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.402054] (handshake_pkg) StdoutLine: {'line': b'Checked files:\n'}
+[0.402079] (handshake_pkg) StdoutLine: {'line': b'\n'}
+[0.402109] (handshake_pkg) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.402136] (handshake_pkg) StdoutLine: {'line': b'* ./handshake_pkg/vcu_node.py\n'}
+[0.402166] (handshake_pkg) StdoutLine: {'line': b'* ./handshake_pkg/__init__.py\n'}
+[0.402195] (handshake_pkg) StdoutLine: {'line': b'* ./handshake_pkg/ai_node.py\n'}
+[0.402224] (handshake_pkg) StdoutLine: {'line': b'* ./build/handshake_pkg/build/lib/handshake_pkg/vcu_node.py\n'}
+[0.402259] (handshake_pkg) StdoutLine: {'line': b'* ./build/handshake_pkg/build/lib/handshake_pkg/__init__.py\n'}
+[0.402289] (handshake_pkg) StdoutLine: {'line': b'* ./build/handshake_pkg/build/lib/handshake_pkg/ai_node.py\n'}
+[0.402318] (handshake_pkg) StdoutLine: {'line': b'* ./build/handshake_pkg/prefix_override/sitecustomize.py\n'}
+[0.402348] (handshake_pkg) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.402377] (handshake_pkg) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.402405] (handshake_pkg) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.402434] (handshake_pkg) StdoutLine: {'line': b'* ./install/_local_setup_util_sh.py\n'}
+[0.402463] (handshake_pkg) StdoutLine: {'line': b'* ./install/_local_setup_util_ps1.py\n'}
+[0.402491] (handshake_pkg) StdoutLine: {'line': b'* ./install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/vcu_node.py\n'}
+[0.402520] (handshake_pkg) StdoutLine: {'line': b'* ./install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/__init__.py\n'}
+[0.402549] (handshake_pkg) StdoutLine: {'line': b'* ./install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/ai_node.py\n'}
+[0.402579] (handshake_pkg) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.402608] (handshake_pkg) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.402640] (handshake_pkg) StdoutLine: {'line': b'- generated xml file: /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/pytest.xml -\n'}
+[0.402669] (handshake_pkg) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.402698] (handshake_pkg) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...\n'}
+[0.402727] (handshake_pkg) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.16s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[0.402757] (handshake_pkg) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.402795] (handshake_pkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.402831] (handshake_pkg) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.402859] (handshake_pkg) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.402889] (handshake_pkg) StderrLine: {'line': b'\n'}
+[0.402917] (handshake_pkg) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.427921] (handshake_pkg) CommandEnded: {'returncode': 1}
+[0.428161] (handshake_pkg) TestFailure: {'identifier': 'handshake_pkg'}
+[0.428202] (handshake_pkg) JobEnded: {'identifier': 'handshake_pkg', 'rc': 0}
+[0.428448] (-) EventReactorShutdown: {}

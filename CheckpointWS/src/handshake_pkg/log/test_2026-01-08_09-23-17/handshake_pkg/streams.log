@@ -1,0 +1,64 @@
+[0.099s] Invoking command in '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg': AMENT_PREFIX_PATH=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/pytest.xml --junit-prefix=handshake_pkg -o cache_dir=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest
+[0.238s] [1m============================= test session starts ==============================[0m
+[0.238s] platform linux -- Python 3.10.12, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.239s] cachedir: build/handshake_pkg/.pytest_cache
+[0.239s] rootdir: /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg
+[0.239s] plugins: launch-testing-1.0.13, ament-lint-0.12.14, ament-xmllint-0.12.14, launch-testing-ros-0.19.13, ament-copyright-0.12.14, ament-pep257-0.12.14, ament-flake8-0.12.14, cov-3.0.0, colcon-core-0.20.1
+[0.280s] [1mcollecting ... [0m[1m
+[0.280s] collected 3 items                                                              [0m
+[0.280s] 
+[0.282s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.356s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.384s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[0.384s] 
+[0.384s] =================================== FAILURES ===================================
+[0.384s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.384s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.401s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.401s] [1m[31mE   AssertionError: Found 1 code style errors / warnings:[0m
+[0.401s] [1m[31mE     ./build/handshake_pkg/prefix_override/sitecustomize.py:4:100: E501 line too long (138 > 99 characters)[0m
+[0.402s] [1m[31mE   assert 1 == 0[0m
+[0.402s] ----------------------------- Captured stdout call -----------------------------
+[0.402s] 
+[0.402s] ./build/handshake_pkg/prefix_override/sitecustomize.py:4:100: E501 line too long (138 > 99 characters)
+[0.402s]     sys.prefix = sys.exec_prefix = '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg'
+[0.402s]                                                                                                    ^
+[0.402s] 
+[0.402s] 1     E501 line too long (138 > 99 characters)
+[0.402s] 
+[0.402s] 16 files checked
+[0.402s] 1 errors
+[0.402s] 
+[0.402s] 'E'-type errors: 1
+[0.402s] 
+[0.402s] Checked files:
+[0.402s] 
+[0.402s] * ./setup.py
+[0.402s] * ./handshake_pkg/vcu_node.py
+[0.402s] * ./handshake_pkg/__init__.py
+[0.402s] * ./handshake_pkg/ai_node.py
+[0.402s] * ./build/handshake_pkg/build/lib/handshake_pkg/vcu_node.py
+[0.402s] * ./build/handshake_pkg/build/lib/handshake_pkg/__init__.py
+[0.402s] * ./build/handshake_pkg/build/lib/handshake_pkg/ai_node.py
+[0.402s] * ./build/handshake_pkg/prefix_override/sitecustomize.py
+[0.402s] * ./test/test_copyright.py
+[0.402s] * ./test/test_flake8.py
+[0.402s] * ./test/test_pep257.py
+[0.402s] * ./install/_local_setup_util_sh.py
+[0.402s] * ./install/_local_setup_util_ps1.py
+[0.402s] * ./install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/vcu_node.py
+[0.402s] * ./install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/__init__.py
+[0.402s] * ./install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/ai_node.py
+[0.402s] ----------------------------- Captured stderr call -----------------------------
+[0.403s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.403s] - generated xml file: /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/pytest.xml -
+[0.403s] =========================== short test summary info ============================
+[0.403s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 1 code style ...
+[0.403s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.16s[0m[31m ==============[0m
+[0.403s] [33m=============================== warnings summary ===============================[0m
+[0.403s] test/test_flake8.py::test_flake8
+[0.403s] test/test_flake8.py::test_flake8
+[0.403s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.403s] 
+[0.403s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.428s] Invoked command in '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg' returned '1': AMENT_PREFIX_PATH=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg:${AMENT_PREFIX_PATH} PYTEST_ADDOPTS=--tb=short --junit-xml=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/pytest.xml --junit-prefix=handshake_pkg -o cache_dir=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/.pytest_cache PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m pytest

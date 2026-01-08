@@ -1,0 +1,4 @@
+[console_scripts]
+listener = handshake_pkg.vcu_node:main
+talker = handshake_pkg.ai_node:main
+

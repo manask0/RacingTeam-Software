@@ -1,0 +1,39 @@
+running egg_info
+creating build/handshake_pkg/handshake_pkg.egg-info
+writing build/handshake_pkg/handshake_pkg.egg-info/PKG-INFO
+writing dependency_links to build/handshake_pkg/handshake_pkg.egg-info/dependency_links.txt
+writing entry points to build/handshake_pkg/handshake_pkg.egg-info/entry_points.txt
+writing requirements to build/handshake_pkg/handshake_pkg.egg-info/requires.txt
+writing top-level names to build/handshake_pkg/handshake_pkg.egg-info/top_level.txt
+writing manifest file 'build/handshake_pkg/handshake_pkg.egg-info/SOURCES.txt'
+reading manifest file 'build/handshake_pkg/handshake_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/handshake_pkg/handshake_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build
+creating /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib
+creating /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg
+copying handshake_pkg/vcu_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg
+copying handshake_pkg/__init__.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg
+copying handshake_pkg/ai_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg
+running install
+running install_lib
+creating /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg
+copying /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg/vcu_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg
+copying /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg/__init__.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg
+copying /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg/ai_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg
+byte-compiling /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/vcu_node.py to vcu_node.cpython-310.pyc
+byte-compiling /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/ai_node.py to ai_node.cpython-310.pyc
+running install_data
+creating /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/share/ament_index
+creating /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/share/ament_index/resource_index
+creating /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/share/ament_index/resource_index/packages
+copying resource/handshake_pkg -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/share/handshake_pkg
+running install_egg_info
+Copying build/handshake_pkg/handshake_pkg.egg-info to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/handshake_pkg
+Installing talker script to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/handshake_pkg
+writing list of installed files to '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/install.log'
