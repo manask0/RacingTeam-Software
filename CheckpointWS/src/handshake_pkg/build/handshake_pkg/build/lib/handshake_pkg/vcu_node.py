@@ -1,35 +1,54 @@
 import rclpy
 from rclpy.node import Node
-
 from std_msgs.msg import String
 
 
-class MinimalSubscriber(Node):
+class VCUNode(Node):
 
     def __init__(self):
-        super().__init__('minimal_subscriber')
+        super().__init__('vcu_node')
+
         self.subscription = self.create_subscription(
             String,
-            'topic',
+            'AI2VCU',
             self.listener_callback,
             10)
-        self.subscription  # prevent unused variable warning
+
+        self.publisher_ = self.create_publisher(String, 'VCU2AI', 10)
+
+        self.timer = self.create_timer(1.0, self.check_ai_status)
+
+        self.last_ai_time = None
 
     def listener_callback(self, msg):
-        self.get_logger().info('I heard: "%s"' % msg.data)
+        self.last_ai_time = self.get_clock().now()
+        self.get_logger().info('Received : %s ' % msg.data)
+
+    def check_ai_status(self):
+        msg = String()
+
+        if self.last_ai_time is None:
+            msg.data = 'Not working'
+            self.get_logger().warn(msg.data)
+            self.publisher_.publish(msg)
+            return
+
+        time_diff = (self.get_clock().now() - self.last_ai_time).nanoseconds / 1e9
+
+        if time_diff > 1.0:
+            msg.data = 'Not working'
+            self.get_logger().warn(msg.data)
+        else:
+            msg.data = 'Working'
+
+        self.publisher_.publish(msg)
 
 
 def main(args=None):
     rclpy.init(args=args)
-
-    minimal_subscriber = MinimalSubscriber()
-
-    rclpy.spin(minimal_subscriber)
-
-    # Destroy the node explicitly
-    # (optional - otherwise it will be done automatically
-    # when the garbage collector destroys the node object)
-    minimal_subscriber.destroy_node()
+    node = VCUNode()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
 
 

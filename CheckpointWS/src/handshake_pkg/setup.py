@@ -25,8 +25,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = handshake_pkg.ai_node:main',
-            'listener = handshake_pkg.vcu_node:main',
+            'ai_node = handshake_pkg.ai_node:main',
+            'vcu_node = handshake_pkg.vcu_node:main',
         ],
     },
 )

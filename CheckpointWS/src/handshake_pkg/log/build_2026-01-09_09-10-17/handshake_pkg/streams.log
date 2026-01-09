@@ -1,0 +1,29 @@
+[0.289s] Invoking command in '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg': PYTHONPATH=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/handshake_pkg build --build-base /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build install --record /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/install.log --single-version-externally-managed install_data
+[0.378s] running egg_info
+[0.378s] writing build/handshake_pkg/handshake_pkg.egg-info/PKG-INFO
+[0.379s] writing dependency_links to build/handshake_pkg/handshake_pkg.egg-info/dependency_links.txt
+[0.379s] writing entry points to build/handshake_pkg/handshake_pkg.egg-info/entry_points.txt
+[0.379s] writing requirements to build/handshake_pkg/handshake_pkg.egg-info/requires.txt
+[0.379s] writing top-level names to build/handshake_pkg/handshake_pkg.egg-info/top_level.txt
+[0.380s] reading manifest file 'build/handshake_pkg/handshake_pkg.egg-info/SOURCES.txt'
+[0.381s] writing manifest file 'build/handshake_pkg/handshake_pkg.egg-info/SOURCES.txt'
+[0.381s] running build
+[0.381s] running build_py
+[0.381s] copying handshake_pkg/vcu_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg
+[0.381s] copying handshake_pkg/ai_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg
+[0.381s] running install
+[0.381s] running install_lib
+[0.382s] copying /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg/vcu_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg
+[0.382s] copying /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build/lib/handshake_pkg/ai_node.py -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg
+[0.382s] byte-compiling /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/vcu_node.py to vcu_node.cpython-310.pyc
+[0.382s] byte-compiling /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg/ai_node.py to ai_node.cpython-310.pyc
+[0.382s] running install_data
+[0.382s] copying package.xml -> /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/share/handshake_pkg
+[0.383s] running install_egg_info
+[0.383s] removing '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.383s] Copying build/handshake_pkg/handshake_pkg.egg-info to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages/handshake_pkg-0.0.0-py3.10.egg-info
+[0.384s] running install_scripts
+[0.392s] Installing ai_node script to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/handshake_pkg
+[0.392s] Installing vcu_node script to /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/handshake_pkg
+[0.392s] writing list of installed files to '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/install.log'
+[0.404s] Invoked command in '/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg' returned '0': PYTHONPATH=/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/install/handshake_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/handshake_pkg build --build-base /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/build install --record /home/townperson/Documents/TraineeSoftwareModule/CheckpointWS/src/handshake_pkg/build/handshake_pkg/install.log --single-version-externally-managed install_data
